@@ -21,7 +21,7 @@ namespace AzureSimpleApi.Controllers
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {
-            return "Something else!";
+            return "Something else";
         }
 
         // POST api/values
