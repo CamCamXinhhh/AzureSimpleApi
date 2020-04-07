@@ -41,7 +41,7 @@ namespace AzureSimpleApi
                 app.UseHsts();
             }
 
-            app.UseHttpsRedirection();
+
             app.UseMvc();
         }
     }
