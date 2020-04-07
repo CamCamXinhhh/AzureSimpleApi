@@ -14,7 +14,7 @@ namespace AzureSimpleApi.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "dotnet", "playbook" };
+            return new string[] { "PhucTri's first website on Azure" };
         }
 
         // GET api/values/5
