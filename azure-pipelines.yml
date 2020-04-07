@@ -12,6 +12,7 @@ pool:
 variables:
   buildConfiguration: 'Release'
 
+#Success config unit test YAML file
 steps:
 - task: DotNetCoreCLI@2
   inputs:
